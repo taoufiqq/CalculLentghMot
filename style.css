@@ -1,0 +1,35 @@
+div{
+	border: 6px solid red;
+	width: 500px;
+	height: 300px;
+	text-align: center;
+	margin-left: 400px;
+	margin-top: 30px;
+	border-radius: 10px;
+}
+ #inpt1{
+     margin-top: 60px;
+     border-radius: 4px;
+     height: 30px;
+     
+}
+ #inpt2{
+	width: 100px;
+	border-radius: 5px;
+	height: 30px;
+	background-color: lightblue;
+	color: white;
+}
+ #result{
+     margin-left: 170px;
+     width: 32%;
+     height: 30px;
+     border-radius: 5px;
+     background-color: black;
+     color: white;
+     line-height: 30px;
+}
+ #inpt2:hover{
+ 	color: yellow;
+ 	background-color: green;
+ }

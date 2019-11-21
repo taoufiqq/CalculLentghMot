@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	
+</head>
+<body>
+	<div>
+     <input id="inpt1" type="text" name="inpt1" placeholder="Entrez le mot">
+     <br>
+     <br>
+     <br>
+     <br>
+     <input id="inpt2" type="button" name="button" value="Calculer" onclick="Longueur();">
+      <br>
+      <br>
+      <br>
+    <!-- <input id="res" type="text" name="inpt1" disabled>-->
+       <p id="result"></p>
+    </div>
+<script type="text/javascript">
+   function Longueur(){
+       var l =document.getElementById("inpt1").value ;
+       document.getElementById("result").innerHTML=l.length;
+   }
+</script>
+</body>
+</html>
